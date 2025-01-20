@@ -1,0 +1,34 @@
+name = "backend"
+main = "src/index.ts"
+compatibility_date = "2024-12-22"
+
+# compatibility_flags = [ "nodejs_compat" ]
+
+[vars]
+# MY_VAR = "my-variable"
+DATABASE_URL="prisma://accelerate.prisma-data.net/?api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlfa2V5IjoiNTg0ZmIxMTYtZTQ1NC00Yjg3LWI5YTYtYTE1ZWZiYzA1MTQzIiwidGVuYW50X2lkIjoiNTg4ZjFkOGQyMDJiN2Y4Y2U3YTU0ZTdiZGNjYWI2NTlhN2ZkNDU2NGI5NjFkNTg4MjRmODgyZWY3MjUwMDUxYSIsImludGVybmFsX3NlY3JldCI6IjEzZDhlMGJhLWZhNjAtNDQzNy1hNGE5LTJjZTQ1YzViZmMyYiJ9.g-BhmqOxGosOR0kr3SyUSzxeg90joV424PO91TGr4oo"
+JWT_SECRET="my_jwt_secret_for_medium"
+
+# [[kv_namespaces]]
+# binding = "MY_KV_NAMESPACE"
+# id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+# [[r2_buckets]]
+# binding = "MY_BUCKET"
+# bucket_name = "my-bucket"
+
+# [[d1_databases]]
+# binding = "DB"
+# database_name = "my-database"
+# database_id = ""
+
+# [ai]
+# binding = "AI"
+
+# [observability]
+# enabled = true
+# head_sampling_rate = 1
+
+# wrangler.toml (wrangler v3.88.0^)
+[observability.logs]
+enabled = true
