@@ -13,7 +13,7 @@ const Blog = () => {
   if(isLoading || !blog) {
     return (
       <>
-      <Appbar page="publish"/>
+      <Appbar/>
       <FullBlogSkeleton />
       </>
     )

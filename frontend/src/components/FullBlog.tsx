@@ -5,7 +5,7 @@ import { Avatar } from "./BlogCard"
 const FullBlog = ({blog}: {blog: Blog}) => {
   return (
     <>
-    <Appbar page="blogs"/>
+    <Appbar/>
     <div className="grid grid-cols-12 px-4 md:px-20 lg:px-40 xl:px-80 w-full py-10">
         <div className="sm:col-span-8 col-span-12 mb-10 sm:mb-0 mr-12">
             <p className="text-3xl font-extrabold mb-1">{blog.title}</p>
