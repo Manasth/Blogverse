@@ -1,6 +1,6 @@
-const Profile = () => {
+const Profile = ({userData}: {userData: any}) => {
   return (
-    <div>Profile</div>
+    <div>Profile: {userData}</div>
   )
 }
 
