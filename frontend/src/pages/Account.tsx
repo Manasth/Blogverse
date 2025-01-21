@@ -24,7 +24,7 @@ const Account = () => {
 
   return (
     <div>
-        <Appbar page="signin" />
+        <Appbar/>
         {isLoading ? <Spinner />: <Profile userData={userData}/>}
     </div>
   )

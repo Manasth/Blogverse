@@ -12,7 +12,7 @@ const Blogs = () => {
   if(isLoading) {
     return (
       <>
-      <Appbar page="blogs"/>
+      <Appbar/>
       <div className="flex flex-col h-screen w-screen items-center justify-start">
       <BlogSkeleton />
       <BlogSkeleton />
@@ -28,7 +28,7 @@ const Blogs = () => {
 
   return (
     <>
-    <Appbar page="blogs"/>
+    <Appbar/>
     <div className="mt-2">
     {blogs.map(blog => (
       <div>
